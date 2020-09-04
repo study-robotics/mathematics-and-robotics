@@ -1,15 +1,21 @@
 # 衝突判定
 ある物体とある物体が衝突しているかどうかを判定する方法
+
+# 目次
+* [円と線分の衝突](#circle_line)
+    * [円と線分の衝突判定のプログラム](#circle_line_pro)
+    
+<a id="circle_line"></a> 
 ## 円と線分の衝突
-<details>
-  <summary>円と線分の衝突</summary>
-  
-  ## プログラム
-  | プログラム名 | 説明 |
-  | ---- | ---- |
-  |circle_collision_check.py|2軸のロボットアーム（線分）と円の衝突判定を実行する．|
-  |circle_collision_anime.py|2軸のロボットアーム（線分）と円の衝突判定を実行する．結果をmp4で保存する（時間がすごくかかる）|
-  |circle_collision_step_check.py|2軸のロボットアーム（線分）と円の衝突判定を「階層的に」実行する．階層的に衝突判定を行うことで処理時間が低減する．|
+円と線分の衝突<
+
+<a id="circle_line_pro"></a> 
+# プログラム
+| プログラム名 | 説明 |
+| ---- | ---- |
+|circle_collision_check.py|2軸のロボットアーム（線分）と円の衝突判定を実行する．|
+|circle_collision_anime.py|2軸のロボットアーム（線分）と円の衝突判定を実行する．結果をmp4で保存する（時間がすごくかかる）|
+|circle_collision_step_check.py|2軸のロボットアーム（線分）と円の衝突判定を「階層的に」実行する．階層的に衝突判定を行うことで処理時間が低減する．|
   
 </details>
 
