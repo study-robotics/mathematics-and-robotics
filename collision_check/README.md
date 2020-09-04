@@ -7,6 +7,8 @@
 <details>  
   <summary>ロボットアームの「各関節の角度」から「手先の座標」を求める問題</summary>
 
+</details>
+
 ## 逆運動学
 <details>
   <summary>ロボットアームの「手先の座標」から「各関節の角度」を求める問題</summary>
