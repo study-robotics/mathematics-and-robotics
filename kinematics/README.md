@@ -3,7 +3,7 @@
 # 目次
 * [運動学](#kinematics)
 * [逆運動学](#inverse_kinematics)
-    * [ランダムサンプリングのプログラム](#inverse_kinematics_pro)
+    * [逆運動学のプログラム](#inverse_kinematics_pro)
     
 <a id="kinematics"></a> 
 ## 運動学
