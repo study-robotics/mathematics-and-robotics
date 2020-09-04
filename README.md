@@ -1,4 +1,5 @@
 # robotics_program
+ロボット工学で用いられる分野の説明（できるだけ図解）を行う．また，各分野に関連するプログラムを配置する．
 [](ここから運動学---------------------------------------------------------------)
 ## [運動学・逆運動学](https://github.com/study-robotics/robotics_program/tree/master/kinematics)
 <details>
