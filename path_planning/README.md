@@ -110,7 +110,7 @@ RRTを改善した手法．RRTと違い，最適な経路が生成される．
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/6.JPG" width="500px">
 
-(6) (5)で測定した距離の中で**最も距離が短い**「半径<img src = "https://latex.codecogs.com/gif.latex?r">の円内にあるノード（上図では<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{8}">になる）」とnew nodeを接続する．  
+(6) (5)で測定した距離の中で**最も距離が短い**「半径<img src = "https://latex.codecogs.com/gif.latex?r">の円内にあるノード（上図では<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{3}">になる）」とnew nodeを接続する．  
 <br>
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/7.JPG" width="500px">
