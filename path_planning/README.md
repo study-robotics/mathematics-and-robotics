@@ -3,10 +3,14 @@
 # 経路計画
 ロボットの形状や移動モデルを考慮し，スタート地点からゴール地点までの動作の手順を探索すること 
 # 目次
+* [経路計画の主な手順](#path_plan_method)
 * [ランダムサンプリング](#random_sampling)
     * [RRT&#42;](#rrt_star)
     * [ランダムサンプリングのプログラム](#random_sampling_pro)
-    
+
+<a id="path_plan_method"></a> 
+## 経路計画の主な手順  
+
 <a id="random_sampling"></a> 
 ## ランダムサンプリング
 ノードをランダムに配置しながらゴールを目指す方法
