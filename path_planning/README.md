@@ -69,7 +69,7 @@
 (6) (1)から(4)をゴールまでの経路が見つかるまで繰り返す．  
 <br>
 
-<img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/7.JPG" width="500px">
+<img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/8.JPG" width="500px">
 
 (7) スタートからゴールを繋ぐ経路が見つかったら経路探索終了．  
 <br>
