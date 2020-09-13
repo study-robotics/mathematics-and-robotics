@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 u"""
-@brief: Path Planning Sample Code with Randamized Rapidly-Exploring Random Trees (RRT)
-@author: AtsushiSakai(@Atsushi_twi)
-@license: MIT
+Copyright (c) 2016 Atsushi Sakai
+Released under the MIT license
+https://github.com/AtsushiSakai/PythonRobotics/blob/master/LICENSE
 """
 
 import random
