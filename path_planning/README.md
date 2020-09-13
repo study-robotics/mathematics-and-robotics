@@ -11,7 +11,6 @@
 
 <a id="path_plan_method"></a>
 ## 経路計画の主な手順 
-経路計画の主な手順を説明する．　　
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/image/1.JPG" width="500px">　　
 
@@ -33,7 +32,7 @@
 [](ここからRRT---------------------------------------------------------------------------------------------------------------------)
 <a id="rrt"></a>
 ## RRT
-RRTの手順を説明する．
+### RRTの手順．
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/1.JPG" width="500px">  
 
