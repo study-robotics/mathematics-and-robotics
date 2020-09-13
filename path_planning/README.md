@@ -19,7 +19,7 @@
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/image/2.JPG" width="500px">　
 
-次に，ノード（スタートからゴールまでの中継地点）を設置して，各ノードを繋げて経路（候補）を生成する．※ノードの設置方法・つなぎ方は使用するアルゴリズムによって異なる．  
+次に，ノード（スタートからゴールまでの中継地点）を設置して，各ノードを繋げて経路候補を生成する．※ノードの設置方法・つなぎ方は使用するアルゴリズムによって異なる．  
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/image/3.JPG" width="500px">　
 
