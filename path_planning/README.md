@@ -122,7 +122,7 @@ RRTを改善した手法．RRTと違い，最適な経路が生成される．
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/8.JPG" width="500px">
 
-(8) (6)で親ノードを「new nodeに変更したときの距離」の方が短かった場合**残りの**「半径<img src="https://latex.codecogs.com/gif.latex?r">の円内にあるノード」の親ノードをnew nodeに繋ぎなおす．（上図の場合，<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{7}">の親ノードを<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{6}">から<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{8}">に繋ぎ直している．）  
+(8) ()で親ノードを「new nodeに変更したときの距離」の方が短かった場合**残りの**「半径<img src="https://latex.codecogs.com/gif.latex?r">の円内にあるノード」の親ノードをnew nodeに繋ぎなおす．（上図の場合，<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{7}">の親ノードを<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{6}">から<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{8}">に繋ぎ直している．）  
 <br>
 
 (9) (2)～(8)を任意の回数繰り返す．  
