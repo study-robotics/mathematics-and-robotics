@@ -40,10 +40,12 @@ RRTの手順を説明する．
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/1.JPG" width="500px">  
 
 (1) ロボット（移動ロボット等）のスタート地点<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{start}">(=<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{1}">)とゴール地点<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{goal}">を設定する．なお，今回の説明では<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{start}">の座標と<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{goal}">の座標が既知であると仮定する．  
+
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/2.JPG" width="500px">
 (2) 経路計画を行う範囲内のランダムな場所に点を打つ（以降これをrandom pointと呼ぶ）．※ここでは，説明のため上図では既にノードがいくつか設置されています．  
+
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/3.JPG" width="500px">
