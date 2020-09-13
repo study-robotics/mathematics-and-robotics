@@ -105,7 +105,7 @@ RRTを改善した手法．RRTと違い，最適な経路が生成される．
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/5.JPG" width="500px">
 
-(5) new nodeを中心点とした半径<img src="https://latex.codecogs.com/gif.latex?r">の円を作成する．new nodeと「半径<img src="https://latex.codecogs.com/gif.latex?r">の円内にあるノード」の距離を測定する．ここで，半径<img src="https://latex.codecogs.com/gif.latex?r">は，その時点でのノードの数を<img src="https://latex.codecogs.com/gif.latex?N">，次元数を<img src="https://latex.codecogs.com/gif.latex?d">（今回の場合，2次元平面上なので<img src="https://latex.codecogs.com/gif.latex?d">=2），半径の大きさを調整するパラメータ（任意の定数）を<img src="https://latex.codecogs.com/gif.latex?\mathbf{R}">とした時  
+(5) new nodeを中心点とした半径<img src="https://latex.codecogs.com/gif.latex?r">の円を作成する．new nodeと「半径<img src="https://latex.codecogs.com/gif.latex?r">の円内にあるノード」の距離を測定する．ここで半径<img src="https://latex.codecogs.com/gif.latex?r">は，その時点でのノードの数を<img src="https://latex.codecogs.com/gif.latex?N">，次元数を<img src="https://latex.codecogs.com/gif.latex?d">（今回の場合，2次元平面上なので<img src="https://latex.codecogs.com/gif.latex?d">=2），半径の大きさを調整するパラメータ（任意の定数）を<img src="https://latex.codecogs.com/gif.latex?\mathbf{R}">とした時  
 <img src="https://latex.codecogs.com/gif.latex?r=R\left(\frac{\log&space;N}{N}\right)^{\frac{1}{d}}">  
 となる．式を見て分かる通り，ノードの数が増えるほど対数的に半径<img src="https://latex.codecogs.com/gif.latex?r">が小さくなることになる．  
 <br>
