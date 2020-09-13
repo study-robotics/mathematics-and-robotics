@@ -117,7 +117,7 @@ RRTを改善した手法．RRTと違い，最適な経路が生成される．
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/7.JPG" width="500px">
 
-(7) **残りの**「半径<img src="https://latex.codecogs.com/gif.latex?r">の円内にあるノード（上図では<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{7}">になる）」の親ノードを「new nodeに変更したときの距離（上図の紫色の経路）」と「変更しなかったときの経路（上図の朱色の経路）」を比較する．  
+(7) (6)で選ばれなかった**残りの**「半径<img src="https://latex.codecogs.com/gif.latex?r">の円内にあるノード（上図では<img src = "https://latex.codecogs.com/gif.latex?\mathbf{p}_{7}">になる）」の親ノードを「new nodeに変更したときの距離（上図の紫色の経路）」と「変更しなかったときの経路（上図の朱色の経路）」を比較する．  
 <br>
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/8.JPG" width="500px">
