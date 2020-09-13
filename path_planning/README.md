@@ -140,4 +140,4 @@ RRTを改善した手法．RRTと違い，最適な経路が生成される．
 ### ランダムサンプリングのプログラム
 |　プログラミング名　|　説明　|
 | ---- | ---- |
-| rrt_star.py | RRT&#42;を実行する　|
+| [rrt_star.py](https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/rrt_star.py) | RRT&#42;を実行する　|
