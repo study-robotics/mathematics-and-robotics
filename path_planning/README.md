@@ -32,7 +32,7 @@
 [](ここからRRT---------------------------------------------------------------------------------------------------------------------)
 <a id="rrt"></a>
 ## RRT
-### RRTの手順．
+### RRTの手順
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/1.JPG" width="500px">  
 
