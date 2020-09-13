@@ -16,13 +16,11 @@
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/image/1.JPG" width="500px">　　
 
 最初にロボット（移動ロボット等）のスタート地点<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{start}">(=<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{1}">)とゴール地点<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{goal}">を設定する．なお，今回の説明では<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{start}">の座標と<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{goal}">の座標が既知であると仮定する．  
-　　　　
 <br>
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/image/2.JPG" width="500px">　
 
 次に，ノード（スタートからゴールまでの中継地点）を設置して，各ノードを繋げて経路候補を生成する．※ノードの設置方法・つなぎ方は使用するアルゴリズムによって異なる．  
-
 <br>
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/image/3.JPG" width="500px">　
@@ -40,48 +38,41 @@ RRTの手順を説明する．
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/1.JPG" width="500px">  
 
 (1) ロボット（移動ロボット等）のスタート地点<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{start}">(=<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{1}">)とゴール地点<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{goal}">を設定する．なお，今回の説明では<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{start}">の座標と<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{goal}">の座標が既知であると仮定する．  
-
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/2.JPG" width="500px">
-(2) 経路計画を行う範囲内のランダムな場所に点を打つ（以降これをrandom pointと呼ぶ）．※ここでは，説明のため上図では既にノードがいくつか設置されています．  
 
+(2) 経路計画を行う範囲内のランダムな場所に点を打つ（以降これをrandom pointと呼ぶ）．※ここでは，説明のため上図では既にノードがいくつか設置されています．  
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/3.JPG" width="500px">
 
-(3) random pointと「その時点で存在する全てのノード」との間の直線距離を計算する．計算の結果，random pointと一番近い位置にあるノードをnearest nodeとする．上図の場合，<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{3}">がnearset nodeになる．
-
+(3) random pointと「その時点で存在する全てのノード」との間の直線距離を計算する．計算の結果，random pointと一番近い位置にあるノードをnearest nodeとする．上図の場合，<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{3}">がnearset nodeになる．  
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/4.JPG" width="500px">
 
-(4) nearest nodeからrandom point方向に定数<img src="https://latex.codecogs.com/gif.latex?\epsilon">だけ進んだ場所に新しいノードnew nodeを設置する．※定数<img src = "https://latex.codecogs.com/gif.latex?\epsilon">は任意の数値．
-
+(4) nearest nodeからrandom point方向に定数<img src="https://latex.codecogs.com/gif.latex?\epsilon">だけ進んだ場所に新しいノードnew nodeを設置する．※定数<img src = "https://latex.codecogs.com/gif.latex?\epsilon">は任意の数値．  
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/5.JPG" width="500px">
 
-ここで，上図のように「nearest nodeとnew nodeの間の直線上」に障害物があった場合，ノードは設置せずに(1)に戻る．
-
+ここで，上図のように「nearest nodeとnew nodeの間の直線上」に障害物があった場合，ノードは設置せずに(1)に戻る．  
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/6.JPG" width="500px">
 
-(5) nearset nodeとnew nodeを繋ぐ（経路に追加する）．
-
+(5) nearset nodeとnew nodeを繋ぐ（経路に追加する）．  
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/7.JPG" width="500px">
 
-(6) (1)から(4)をゴールまでの経路が見つかるまで繰り返す．
-
+(6) (1)から(4)をゴールまでの経路が見つかるまで繰り返す．  
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/7.JPG" width="500px">
 
-(7) スタートからゴールを繋ぐ経路が見つかったら経路探索終了．
-
+(7) スタートからゴールを繋ぐ経路が見つかったら経路探索終了．  
 <br>
 
 上記の手順から分かるように，RRTでは単純にランダムにノードを設置しているシンプルな手法なため最適な経路が生成される保証がない（ジグザグな経路が生成されることも多い）．
