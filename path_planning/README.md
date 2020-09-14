@@ -32,8 +32,6 @@
 [](ここからRRT---------------------------------------------------------------------------------------------------------------------)
 <a id="rrt"></a>
 ## RRT
-### RRTの手順
-
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/1.JPG" width="500px">  
 
 (1) ロボット（移動ロボット等）のスタート地点<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{start}">(=<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{1}">)とゴール地点<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{goal}">を設定する．なお，今回の説明では<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{start}">の座標と<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{goal}">の座標が既知であると仮定する．  
@@ -80,8 +78,6 @@
 [](ここからRRT*---------------------------------------------------------------------------------------------------------------------)
 <a id="rrt_star"></a> 
 ## RRT&#42; 
-RRTを改善した手法．RRTと違い，最適な経路が生成される．
-### RRT&#42; の手順
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/1.JPG" width="500px">
 
