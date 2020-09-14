@@ -81,7 +81,7 @@
 <a id="rrt_star"></a> 
 ## RRT&#42; 
 RRTを改善した手法．RRTと違い，最適な経路が生成される．
-## RRT&#42; の手順
+### RRT&#42; の手順
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/1.JPG" width="500px">
 
@@ -139,7 +139,7 @@ RRTを改善した手法．RRTと違い，最適な経路が生成される．
 
 
 <a id="random_sampling_pro"></a> 
-### ランダムサンプリングのプログラム
+## ランダムサンプリングのプログラム
 |　プログラミング名　|　説明　|
 | ---- | ---- |
 | [rrt_star.py](https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/rrt_star.py) | RRT&#42;を実行する．（AtsushiSakai氏のプログラムにコメントを追記したもの）　|
