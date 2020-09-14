@@ -27,10 +27,7 @@
 <img src = "https://latex.codecogs.com/gif.latex?x=r&space;\cos&space;\theta">      
 <img src = "https://latex.codecogs.com/gif.latex?y=r&space;\sin&space;\theta">  
 で変換することが可能である．  
-直交座標系→極座標系に変換するには，  
-<img src = "https://latex.codecogs.com/gif.latex?x=r&space;\cos&space;\theta">      
-<img src = "https://latex.codecogs.com/gif.latex?y=r&space;\sin&space;\theta">  
-の関係性を式変形して，  
+直交座標系→極座標系に変換するには，<img src = "https://latex.codecogs.com/gif.latex?x=r&space;\cos&space;\theta">，<img src = "https://latex.codecogs.com/gif.latex?y=r&space;\sin&space;\theta">の関係性を式変形して，  
 <img src ="https://latex.codecogs.com/gif.latex?r=\sqrt{x^{2}&plus;y^{2}}">  
 <img src = "https://latex.codecogs.com/gif.latex?\theta=\tan^{-1}&space;\left(\frac{y}{x}\right)">   
 とすることで変換可能である．  
