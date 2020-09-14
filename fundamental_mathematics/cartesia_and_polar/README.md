@@ -2,7 +2,7 @@
 ロボット工学の色々な分野で用いられる基礎的な数学について記述する．
 # 目次
 * [直交座標系と極座標系](#cartesia_and_polar)
-    * [概要と2次元座標系における手順](#cartesia_and_polar_method)
+    * [概要](#cartesia_and_polar_method)
     * [2次元座標系における手順](#cartesia_and_polar_2d)
     * [2次元座標系における変換の具体例](#cartesia_and_polar_2d_ex)
 
