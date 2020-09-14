@@ -1,7 +1,7 @@
 # 数学の基礎
 ロボット工学の色々な分野で用いられる基礎的な数学について記述する．
 # 目次
-* 直交座標系と極座標系(#cartesia_and_polar)
+* [直交座標系と極座標系](#cartesia_and_polar)
 
 <a id="cartesia_and_polar"></a> 
 ## 直交座標系と極座標系
