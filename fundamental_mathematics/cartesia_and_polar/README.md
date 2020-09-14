@@ -9,8 +9,8 @@
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/1.JPG" width=400px>
 
-最初に上図のような最も一般的（小学校などで習う）な座標系を「直交座標系」という．この座標系は，2次元平面上で横軸を<img src="https://latex.codecogs.com/gif.latex?y">，
-縦軸を<img src="https://latex.codecogs.com/gif.latex?x">とした時に(<img src="https://latex.codecogs.com/gif.latex?x">, <img src="https://latex.codecogs.com/gif.latex?y">)
+最初に上図のような最も一般的（小学校などで習う）な座標系を「直交座標系」という．この座標系は，2次元平面上で横軸を<img src="https://latex.codecogs.com/gif.latex?x">，
+縦軸を<img src="https://latex.codecogs.com/gif.latex?y">とした時に(<img src="https://latex.codecogs.com/gif.latex?x">, <img src="https://latex.codecogs.com/gif.latex?y">)
 で座標上の点の位置を示すことができる．  
 <br>
 
