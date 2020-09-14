@@ -1,6 +1,8 @@
 # 数学の基礎
 ロボット工学の色々な分野で用いられる基礎的な数学について記述する．
 # 目次
+<details>
+   <summary>目次</summary>
 * [直交座標系と極座標系](#cartesia_and_polar)
     * [概要](#cartesia_and_polar_method)
     * [2次元座標系における座標変換の手順](#cartesia_and_polar_2d)
@@ -8,6 +10,7 @@
         * [直交座標系→極座標系](#cartesia_and_polar_2d_c_to_p)
         * [極座標系→直交座標系](#cartesia_and_polar_2d_p_to_c)
         * [応用例](#cartesia_and_polar_2d_app)
+</details>
 
 [](ここから直交座標系と極座標系----------------------------------------------------------------------------------------)
 <a id="cartesia_and_polar"></a> 
