@@ -3,13 +3,15 @@
 # 目次
 * [直交座標系と極座標系](#cartesia_and_polar)
     * [概要と2次元座標系における手順](#cartesia_and_polar_method)
-    * [2次元座標系における変換の具体例](#cartesia_and_polar_ex)
+    * [2次元座標系における手順](#cartesia_and_polar_2d)
+    * [2次元座標系における変換の具体例](#cartesia_and_polar_2d_ex)
 
 [](ここから直交座標系と極座標系----------------------------------------------------------------------------------------)
 <a id="cartesia_and_polar"></a> 
 ## 直交座標系と極座標系
+
 <a id="cartesia_and_polar_method"></a> 
-### 概要と2次元座標系における手順
+### 概要
 座標の表現方法には様々な種類があるが，ここでは直交座標系と極座標系について記述する．  
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/1.JPG" width=300px>
@@ -27,6 +29,8 @@
 「極座標系」という．  
 <br>
 
+<a id="cartesia_and_polar_2d"></a> 
+### 2次元座標系における座標変換の手順
 直交座標系と極座標系は互いの座標を変換することが可能である．2次元座標系の場合，座標上の点が直交座標系で(<img src="https://latex.codecogs.com/gif.latex?x">, <img src="https://latex.codecogs.com/gif.latex?y">)，極座標系で(<img src="https://latex.codecogs.com/gif.latex?r">, <img src="https://latex.codecogs.com/gif.latex?\theta">)と表された時，極座標系→直交座標系に変換する場合  
 <img src = "https://latex.codecogs.com/gif.latex?x=r&space;\cos&space;\theta">      
 <img src = "https://latex.codecogs.com/gif.latex?y=r&space;\sin&space;\theta">  
@@ -37,7 +41,7 @@
 とすることで変換可能である．  
 <br>  
 
-<a id="cartesia_and_polar_ex"></a> 
+<a id="cartesia_and_polar_2d_ex"></a> 
 ### 2次元座標系における変換の具体例
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/3.JPG" width=300px>
 
