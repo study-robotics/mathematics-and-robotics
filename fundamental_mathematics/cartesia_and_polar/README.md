@@ -2,14 +2,14 @@
 ロボット工学の色々な分野で用いられる基礎的な数学について記述する．
 # 目次
 * [直交座標系と極座標系](#cartesia_and_polar)
-    * [手順](#cartesia_and_polar_method)
-    * [具体例](#cartesia_and_polar_method_ex)
+    * [概要と手順](#cartesia_and_polar_method)
+    * [具体例](#cartesia_and_polar_ex)
 
 [](ここから直交座標系と極座標系----------------------------------------------------------------------------------------)
 <a id="cartesia_and_polar"></a> 
 ## 直交座標系と極座標系
 <a id="cartesia_and_polar_method"></a> 
-### 手順
+### 概要と手順
 座標の表現方法には様々な種類があるが，ここでは直交座標系と極座標系について記述する．  
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/1.JPG" width=300px>
