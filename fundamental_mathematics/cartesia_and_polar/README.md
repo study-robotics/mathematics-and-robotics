@@ -16,7 +16,7 @@
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/2.JPG" width=400px>
 
-次に上図のように「座標上の点の原点からの直線距離<img src="https://latex.codecogs.com/gif.latex?r">」と「<img src="https://latex.codecogs.com/gif.latex?x">軸から反時計周りに測った
+次に上図のように「座標上の点の原点からの直線距離<img src="https://latex.codecogs.com/gif.latex?r">」と「<img src="https://latex.codecogs.com/gif.latex?x">軸から反時計周り方向に測った
 角度<img src="https://latex.codecogs.com/gif.latex?\theta">」によって
 (<img src="https://latex.codecogs.com/gif.latex?r">, <img src="https://latex.codecogs.com/gif.latex?\theta">)の形で座標上の点の位置を示す座標系を
 「極座標系」という．
