@@ -27,7 +27,7 @@
 縦軸を<img src="https://latex.codecogs.com/gif.latex?y">とした時に(<img src="https://latex.codecogs.com/gif.latex?x">, <img src="https://latex.codecogs.com/gif.latex?y">)
 で座標上の点の位置を示すことができる．  
 <br>
-<br>
+
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/2.JPG" width=300px>
 
@@ -54,7 +54,7 @@
 
 具体例として上図の直交座標系で(3,4)の位置に点がある場合を考える．  
 <br>  
-<br>
+
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/4.JPG" width=300px>
 
@@ -68,7 +68,7 @@
 
 次に，上図の極座標系で(8, 45)の位置に点がある場合を考える．  
 <br>  
-<br>
+
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/6.JPG" width=300px>  
 
