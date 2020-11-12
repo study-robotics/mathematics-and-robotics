@@ -72,7 +72,7 @@
 <img src="https://latex.codecogs.com/gif.latex?x">，<img src="https://latex.codecogs.com/gif.latex?y">はそれぞれ下記の様に求められる．  
 <img src="https://latex.codecogs.com/gif.latex?x&space;=&space;8\cos\left({45}\right)\risingdotseq&space;5.65">  
 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;8\sin\left({45}\right)\risingdotseq&space;5.65">  
-このような極座標系→直交座標系への変換は[運動学](https://github.com/study-robotics/mathematics-and-robotics/tree/master/kinematics)で用いられる．  
+このような極座標系→直交座標系への変換は[運動学](https://github.com/study-robotics/mathematics-and-robotics/tree/master/kinematics)等で用いられる．  
 <a id="cartesia_and_polar_2d_app"></a> 
 ### 応用例（後で修正予定）
 次に，応用例を説明する．  
