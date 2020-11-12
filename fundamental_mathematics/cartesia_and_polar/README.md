@@ -35,9 +35,6 @@
 角度<img src="https://latex.codecogs.com/gif.latex?\theta">」によって
 (<img src="https://latex.codecogs.com/gif.latex?r">, <img src="https://latex.codecogs.com/gif.latex?\theta">)の形で座標上の点の位置を示す座標系を
 「極座標系」という．  
-<br>
-<br>
-
 <a id="cartesia_and_polar_2d"></a> 
 ## 2次元座標系における座標変換の手順
 直交座標系と極座標系は互いの座標を変換することが可能である．2次元座標系の場合，座標上の点が直交座標系で(<img src="https://latex.codecogs.com/gif.latex?x">, <img src="https://latex.codecogs.com/gif.latex?y">)，極座標系で(<img src="https://latex.codecogs.com/gif.latex?r">, <img src="https://latex.codecogs.com/gif.latex?\theta">)と表された時，極座標系→直交座標系に変換する場合  
@@ -97,8 +94,6 @@
 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;4\sin\left({45}\right)\risingdotseq&space;2.83">  
 このような手法は，直線上の衝突判定を行う時に用いられる．  
 [](ここまで直交座標系と極座標系----------------------------------------------------------------------------------------)
-<br>  
-<br>
 
 
 
