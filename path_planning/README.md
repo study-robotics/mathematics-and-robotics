@@ -44,7 +44,7 @@
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/3.JPG" width="500px">
 
-(3) random pointと「その時点で存在する全てのノード」との間の直線距離を計算する．計算の結果，random pointと一番近い位置にあるノードをnearest nodeとする．上図の場合，<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{3}">がnearset nodeになる．  
+(3) random pointと「その時点で存在するゴール地点以外の全てのノード」との間の直線距離を計算する．計算の結果，random pointと一番近い位置にあるノードをnearest nodeとする．上図の場合，<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{3}">がnearset nodeになる．  
 <br>
 
 <img src = "https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt/image/4.JPG" width="500px">
@@ -91,7 +91,7 @@
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/3.JPG" width="500px">
 
-(3) random pointと「その時点で存在する全てのノード」との間の直線距離を計算する．計算の結果，random pointと一番近い位置にあるノードをnearest nodeとする．上図の場合，<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{3}">がnearset nodeになる．  
+(3) random pointと「その時点で存在するゴール地点以外の全てのノード」との間の直線距離を計算する．計算の結果，random pointと一番近い位置にあるノードをnearest nodeとする．上図の場合，<img src ="https://latex.codecogs.com/gif.latex?\mathbf{p}_{3}">がnearset nodeになる．  
 <br>
 
 <img src ="https://github.com/study-robotics/mathematics-and-robotics/blob/master/path_planning/random_sampling/rrt_star/image/4.JPG" width="500px">
