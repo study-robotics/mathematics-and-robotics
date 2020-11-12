@@ -45,8 +45,6 @@
 <img src ="https://latex.codecogs.com/gif.latex?r=\sqrt{x^{2}&plus;y^{2}}">  
 <img src = "https://latex.codecogs.com/gif.latex?\theta=\tan^{-1}&space;\left(\frac{y}{x}\right)">   
 とすることで変換可能である．  
-<br>  
-<br>
 
 <a id="cartesia_and_polar_2d_ex"></a> 
 ## 2次元座標系における変換の具体例
