@@ -61,8 +61,6 @@
 <img src="https://latex.codecogs.com/gif.latex?r">，<img src="https://latex.codecogs.com/gif.latex?\theta">はそれぞれ下記の様に求められる．  
 <img src="https://latex.codecogs.com/gif.latex?r=\sqrt{3^{2}&plus;4^{2}}=5">  
 <img src="https://latex.codecogs.com/gif.latex?\theta=\tan^{-1}\left(\frac{4}{3}\right)&space;\risingdotseq&space;53.1">  
-<br>  
-<br>
 
 <a id="cartesia_and_polar_2d_p_to_c"></a> 
 ### 極座標系→直交座標系
@@ -78,9 +76,6 @@
 <img src="https://latex.codecogs.com/gif.latex?x&space;=&space;8\cos\left({45}\right)\risingdotseq&space;5.65">  
 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;8\sin\left({45}\right)\risingdotseq&space;5.65">  
 このような極座標系→直交座標系への変換は[運動学](https://github.com/study-robotics/mathematics-and-robotics/tree/master/kinematics)で用いられる．  
-<br>  
-<br>
-
 <a id="cartesia_and_polar_2d_app"></a> 
 ### 応用例
 次に，応用例を説明する．  
