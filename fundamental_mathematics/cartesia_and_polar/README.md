@@ -76,7 +76,7 @@
 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;8\sin\left({45}\right)\risingdotseq&space;5.65">  
 このような極座標系→直交座標系への変換は[運動学](https://github.com/study-robotics/mathematics-and-robotics/tree/master/kinematics)で用いられる．  
 <a id="cartesia_and_polar_2d_app"></a> 
-### 応用例
+### 応用例（後で修正予定）
 次に，応用例を説明する．  
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/7.JPG" width=300px>  
