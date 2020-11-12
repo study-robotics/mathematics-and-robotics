@@ -28,7 +28,6 @@
 で座標上の点の位置を示すことができる．  
 <br>
 <br>
-
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/2.JPG" width=300px>
 
 次に上図のように「座標上の点の原点からの直線距離<img src="https://latex.codecogs.com/gif.latex?r">」と「<img src="https://latex.codecogs.com/gif.latex?x">軸から反時計周り方向に測った
@@ -55,7 +54,6 @@
 具体例として上図の直交座標系で(3,4)の位置に点がある場合を考える．  
 <br>  
 <br>
-
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/4.JPG" width=300px>
 
 <img src="https://latex.codecogs.com/gif.latex?r">，<img src="https://latex.codecogs.com/gif.latex?\theta">はそれぞれ下記の様に求められる．  
