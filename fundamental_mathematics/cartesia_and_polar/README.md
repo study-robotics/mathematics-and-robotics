@@ -83,7 +83,6 @@
 
 上図のように直線上の点を求めたいときも極座標系→直交座標系の変換は利用することが可能である．例として， [極座標系→直交座標系の例](#cartesia_and_polar_2d_p_to_c)のように変換した後に，
 直線上にある点の座標を求める方法を考える．ここで，直交座標系で「原点から(5.65, 5.65)方向に4だけ進んだ位置の座標」を求めたい場合
-
 <img src="https://latex.codecogs.com/gif.latex?x">，<img src="https://latex.codecogs.com/gif.latex?y">はそれぞれ下記のように求められる．  
 <img src="https://latex.codecogs.com/gif.latex?x&space;=&space;4\cos\left({45}\right)\risingdotseq&space;2.83">  
 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;4\sin\left({45}\right)\risingdotseq&space;2.83">  
