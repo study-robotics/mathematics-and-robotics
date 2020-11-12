@@ -27,6 +27,7 @@
 縦軸を<img src="https://latex.codecogs.com/gif.latex?y">とした時に(<img src="https://latex.codecogs.com/gif.latex?x">, <img src="https://latex.codecogs.com/gif.latex?y">)
 で座標上の点の位置を示すことができる．  
 <br>
+<br>
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/2.JPG" width=300px>
 
@@ -34,6 +35,7 @@
 角度<img src="https://latex.codecogs.com/gif.latex?\theta">」によって
 (<img src="https://latex.codecogs.com/gif.latex?r">, <img src="https://latex.codecogs.com/gif.latex?\theta">)の形で座標上の点の位置を示す座標系を
 「極座標系」という．  
+<br>
 <br>
 
 <a id="cartesia_and_polar_2d"></a> 
@@ -47,6 +49,7 @@
 <img src = "https://latex.codecogs.com/gif.latex?\theta=\tan^{-1}&space;\left(\frac{y}{x}\right)">   
 とすることで変換可能である．  
 <br>  
+<br>
 
 <a id="cartesia_and_polar_2d_ex"></a> 
 ## 2次元座標系における変換の具体例
@@ -56,6 +59,7 @@
 
 具体例として上図の直交座標系で(3,4)の位置に点がある場合を考える．  
 <br>  
+<br>
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/4.JPG" width=300px>
 
@@ -63,6 +67,7 @@
 <img src="https://latex.codecogs.com/gif.latex?r=\sqrt{3^{2}&plus;4^{2}}=5">  
 <img src="https://latex.codecogs.com/gif.latex?\theta=\tan^{-1}\left(\frac{4}{3}\right)&space;\risingdotseq&space;53.1">  
 <br>  
+<br>
 
 <a id="cartesia_and_polar_2d_p_to_c"></a> 
 ### 極座標系→直交座標系
@@ -70,6 +75,7 @@
 
 次に，上図の極座標系で(8, 45)の位置に点がある場合を考える．  
 <br>  
+<br>
 
 <img src="https://github.com/study-robotics/mathematics-and-robotics/blob/master/fundamental_mathematics/cartesia_and_polar/image/6.JPG" width=300px>  
 
@@ -78,6 +84,7 @@
 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;8\sin\left({45}\right)\risingdotseq&space;5.65">  
 このような極座標系→直交座標系への変換は[運動学](https://github.com/study-robotics/mathematics-and-robotics/tree/master/kinematics)で用いられる．  
 <br>  
+<br>
 
 <a id="cartesia_and_polar_2d_app"></a> 
 ### 応用例
@@ -91,6 +98,7 @@
 このような手法は，直線上の衝突判定を行う時に用いられる．  
 [](ここまで直交座標系と極座標系----------------------------------------------------------------------------------------)
 <br>  
+<br>
 
 
 
