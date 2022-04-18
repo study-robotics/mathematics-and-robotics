@@ -1,0 +1,33 @@
+version: '3'
+
+# ホストがlinuxの時のみ：ホスト側で下記を実行で「コンテナ内で起動のguiアプリ」をホスト側に表示可能
+# $ xhost local:
+
+services:
+  # コンテナの名前を指定
+  ros:
+    build:
+      context: . # context : Dockerfileがある場所を指定)
+      shm_size: 512m # shm_size: shmのサイズを指定
+
+    volumes: # volumes : ホストとコンテナをマウント
+      - '.:/workspace'  # 今回の場合、「ホスト側の現在地「.」にあるファイル」と「コンテナ内の「/files」にあるファイル」を共有
+      #- '/tmp/.X11-unix:/tmp/.X11-unix' # ホストのxhostと接続　GUI (ホストがlinuxのPCの場合，有効にする)
+
+    # environment: # 環境設定
+      # hostのgui環境と接続 GUI
+      # - DISPLAY=${DISPLAY} (ホストがlinuxのPCの場合，有効にする)
+
+    stdin_open: true # docker runの -i オプションに相当
+    tty: true # docker runの t オプションに相当
+
+# $ docker-compose build # build
+# $ docker-compose up -d # デタッチモードでコンテナ立ち上げ
+# $ docker-compose exec ros /bin/bash # 指定したコンテナ内に入る
+# $ docker-compose down # docker-compose up で起動したコンテナを削除
+
+# Macがホストの場合，ホスト側にxquartzをインストールしていないとGUIアプリが起動しない
+# xquartzをセットアップ
+# $ brew cask install xquartz
+# xquartzを起動しておきます
+# $ open -a XQuartz
