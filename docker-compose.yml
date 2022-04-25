@@ -10,6 +10,9 @@ services:
       context: . # context : Dockerfileがある場所を指定)
       shm_size: 512m # shm_size: shmのサイズを指定
 
+    ports:
+      - "8888:8888" # jupyter lab --ip=0.0.0.0 --no-browser
+
     volumes: # volumes : ホストとコンテナをマウント
       - '.:/workspace'  # 今回の場合、「ホスト側の現在地「.」にあるファイル」と「コンテナ内の「/files」にあるファイル」を共有
       #- '/tmp/.X11-unix:/tmp/.X11-unix' # ホストのxhostと接続　GUI (ホストがlinuxのPCの場合，有効にする)
@@ -17,7 +20,7 @@ services:
     # environment: # 環境設定
       # hostのgui環境と接続 GUI
       # - DISPLAY=${DISPLAY} (ホストがlinuxのPCの場合，有効にする)
-
+    
     stdin_open: true # docker runの -i オプションに相当
     tty: true # docker runの t オプションに相当
 
