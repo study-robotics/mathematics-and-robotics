@@ -32,8 +32,8 @@ RUN apt-get update && apt-get install -y \
 
 # https://www.idnet.co.jp/column/page_187.html
 # JupyterLab関連のパッケージ（いくつかの拡張機能を含む）
-RUN python3 -m pip install --upgrade pip \
-&&  pip install --no-cache-dir \
+RUN pip3 install --upgrade pip \
+&&  pip3 install --no-cache-dir \
     black \
     jupyterlab \
     jupyterlab_code_formatter \
@@ -43,12 +43,16 @@ RUN python3 -m pip install --upgrade pip \
     ipywidgets \
     import-ipynb
 
-RUN python3 -m pip install --upgrade pip \
+RUN pip3 install --upgrade pip \
 && pip3 install sympy
 
 # animationに必要
-RUN python3 -m pip install --upgrade pip \
-&& pip3 install menpo ffmpeg ffmpeg-python
+RUN apt-get update && apt-get install -y\
+    ffmpeg
+
+# animation on jupyter
+RUN pip3 install --upgrade pip \
+&& pip3 install ipympl
 
 # https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user
 # rootでログインすると，全部のファイルがroot権限になって扱いが面倒なので，ユーザを作成

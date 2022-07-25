@@ -72,26 +72,26 @@ def draw_link_coordinate(ax, Hdh):
 def main():
     # 描画関連 -----------------------------------
     fig = plt.figure(figsize=(5,10))
-    ax = fig.add_subplot(2,1,1, projection='3d')
+    ax1 = fig.add_subplot(2,1,1, projection='3d')
 
     # 各スライダーの位置を設定
-    slider1_pos = plt.axes([0.1, 0.30, 0.8, 0.03]) 
-    slider2_pos = plt.axes([0.1, 0.25, 0.8, 0.03])
-    slider3_pos = plt.axes([0.1, 0.20, 0.8, 0.03])
-    slider4_pos = plt.axes([0.1, 0.15, 0.8, 0.03])
-    slider5_pos = plt.axes([0.1, 0.10, 0.8, 0.03])
-    slider6_pos = plt.axes([0.1, 0.05, 0.8, 0.03])
+    slider1_pos = plt.axes([0.1, 0.46, 0.8, 0.03]) 
+    slider2_pos = plt.axes([0.1, 0.43, 0.8, 0.03])
+    slider3_pos = plt.axes([0.1, 0.40, 0.8, 0.03])
+    slider4_pos = plt.axes([0.1, 0.37, 0.8, 0.03])
+    slider5_pos = plt.axes([0.1, 0.34, 0.8, 0.03])
+    slider6_pos = plt.axes([0.1, 0.31, 0.8, 0.03])
     # スライダーの設定
     slider1 = Slider(slider1_pos, 'theta1', -180, 180, valinit=0.0)
     slider2 = Slider(slider2_pos, 'theta2', -180, 180, valinit=0.0)
     slider3 = Slider(slider3_pos, 'theta3', -180, 180, valinit=0.0)
-    slider4 = Slider(slider4_pos, 'theta3', -180, 180, valinit=0.0)
+    slider4 = Slider(slider4_pos, 'theta4', -180, 180, valinit=0.0)
     slider5 = Slider(slider5_pos, 'theta5', -180, 180, valinit=0.0)
     slider6 = Slider(slider6_pos, 'theta6', -180, 180, valinit=0.0)
     # 描画関連，一旦ここまで --------------------------
     
     def update(val):
-        ax.clear()
+        ax1.clear()
 
         # スライダーの値を獲得
         theta1 = slider1.val
@@ -149,30 +149,30 @@ def main():
         # 以下，描画関連 ---------------------------------
         # 各linkの描画（dh法に基づいたlinkなので，長さが0になるlinkが出現する可能性があることに注意）
         # ax.plot([n-1番目のlinkの原点座標(x方向), n番目のlinkの原点座標（x方向）], [n-1番目のlinkの原点座標(y方向), n番目のlinkの原点座標（y方向）], [n-1番目のlinkの原点座標(z方向), n番目のlinkの原点座標（z方向）])
-        ax.plot([o0[0], o1[0]], [o0[1], o1[1]], [o0[2], o1[2]], "-", color="tomato", ms=6) # link1
-        ax.plot([o1[0], o2[0]], [o1[1], o2[1]], [o1[2], o2[2]], "-", color="lightgreen", ms=6) # link2
-        ax.plot([o2[0], o3[0]], [o2[1], o3[1]], [o2[2], o3[2]], "-", color="cyan", ms=6) # link3
-        ax.plot([o3[0], o4[0]], [o3[1], o4[1]], [o3[2], o4[2]], "-", color="purple", ms=6) # link4
-        ax.plot([o4[0], o5[0]], [o4[1], o5[1]], [o4[2], o5[2]], "-", color="gold", ms=6) # link5
-        ax.plot([o5[0], o6[0]], [o5[1], o6[1]], [o5[2], o6[2]], "-", color="mediumslateblue", ms=6) # link6
+        ax1.plot([o0[0], o1[0]], [o0[1], o1[1]], [o0[2], o1[2]], "-", color="tomato", ms=6) # link1
+        ax1.plot([o1[0], o2[0]], [o1[1], o2[1]], [o1[2], o2[2]], "-", color="lightgreen", ms=6) # link2
+        ax1.plot([o2[0], o3[0]], [o2[1], o3[1]], [o2[2], o3[2]], "-", color="cyan", ms=6) # link3
+        ax1.plot([o3[0], o4[0]], [o3[1], o4[1]], [o3[2], o4[2]], "-", color="purple", ms=6) # link4
+        ax1.plot([o4[0], o5[0]], [o4[1], o5[1]], [o4[2], o5[2]], "-", color="gold", ms=6) # link5
+        ax1.plot([o5[0], o6[0]], [o5[1], o6[1]], [o5[2], o6[2]], "-", color="mediumslateblue", ms=6) # link6
         
         # 各linkの座標軸を描画
-        draw_link_coordinate(ax,      Hdh01)
-        draw_link_coordinate(ax,     Hdh012)
-        draw_link_coordinate(ax,    Hdh0123)
-        draw_link_coordinate(ax,   Hdh01234)
-        draw_link_coordinate(ax,  Hdh012345)
-        draw_link_coordinate(ax, Hdh0123456)
+        draw_link_coordinate(ax1,      Hdh01)
+        draw_link_coordinate(ax1,     Hdh012)
+        draw_link_coordinate(ax1,    Hdh0123)
+        draw_link_coordinate(ax1,   Hdh01234)
+        draw_link_coordinate(ax1,  Hdh012345)
+        draw_link_coordinate(ax1, Hdh0123456)
         
         # 範囲設定
-        ax.set_xlim(-5, 5)
-        ax.set_ylim(-5, 5)
-        ax.set_zlim(-5, 5)
+        ax1.set_xlim(-5, 5)
+        ax1.set_ylim(-5, 5)
+        ax1.set_zlim(-5, 5)
 
         # 軸ラベル
-        ax.set_xlabel('x')
-        ax.set_ylabel('y')
-        ax.set_zlabel('z')
+        ax1.set_xlabel('x')
+        ax1.set_ylabel('y')
+        ax1.set_zlabel('z')
 
     # スライダーが操作されると，関数updateが呼び出される
     slider1.on_changed(update) 
