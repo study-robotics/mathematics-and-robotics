@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %} 
+<h1>アップロード</h1>
+
+
+<form  action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
+    <p> generate C-space</p>
+    <input type="file" name="generate_cspace_file" multiple accept="image/png, image/jpeg" > <!--upload image-->
+    <br>
+    
+    <p> true C-space</p>
+    <input type="file" name="true_cspace_file" multiple accept="image/png, image/jpeg">
+    <br>
+    
+    <p> last Voxel</p>
+    <input type="file" name="voxel_file" multiple> 
+    
+    <input type="submit" value="アップロード">
+</form>
+
+{% endblock %}

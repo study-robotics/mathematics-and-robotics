@@ -32,16 +32,15 @@ RUN apt-get update && apt-get install -y \
 
 # https://www.idnet.co.jp/column/page_187.html
 # JupyterLab関連のパッケージ（いくつかの拡張機能を含む）
-RUN pip3 install --upgrade pip \
-&&  pip3 install --no-cache-dir \
-    black \
-    jupyterlab \
-    jupyterlab_code_formatter \
-    jupyterlab-git \
-    lckr-jupyterlab-variableinspector \
-    jupyterlab_widgets \
-    ipywidgets \
-    import-ipynb
+#RUN pip3 install --upgrade pip &&  pip3 install --no-cache-dir \
+#    black \
+#    jupyterlab \
+#    jupyterlab_code_formatter \
+#    jupyterlab-git \
+#    lckr-jupyterlab-variableinspector \
+#    jupyterlab_widgets \
+#    ipywidgets \
+#    import-ipynb
 
 RUN pip3 install --upgrade pip \
 && pip3 install sympy
@@ -53,6 +52,32 @@ RUN apt-get update && apt-get install -y\
 # animation on jupyter
 RUN pip3 install --upgrade pip \
 && pip3 install ipympl
+
+# pytorch (cpu)-------------------
+RUN pip3 install --upgrade pip &&\
+    pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+
+RUN apt update && apt install -y\
+    graphviz
+
+RUN pip3 install \
+    torchviz \ 
+    seaborn
+# ----------------------------
+
+# Flask ---------------------------
+RUN pip3 install --upgrade pip && pip3 install \
+    Flask
+
+RUN pip3 install --upgrade pip && pip3 install \
+    wtforms \
+    flask_sqlalchemy \
+    flask_migrate \
+    pykakasi
+
+RUN apt-get update -y && apt-get install -y \
+sqlite3
+# ---------------------------------
 
 # https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user
 # rootでログインすると，全部のファイルがroot権限になって扱いが面倒なので，ユーザを作成
